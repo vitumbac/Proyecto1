@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Componentes de un Proyector</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eef2f6;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #002744;
+      color: white;
+      padding: 20px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header img {
+      height: 60px;
+    }
+
+    .slogan {
+      font-style: italic;
+      font-size: 1.1em;
+    }
+
+    .hero {
+      text-align: center;
+      background-color: #005f89;
+      color: white;
+      padding: 40px 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      margin: 0;
+    }
+
+    section {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-content h3 {
+      color: #0078b8;
+      margin-top: 0;
+    }
+
+    footer {
+      background-color: #001c2f;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+ 
+  <header>
+    <img src="./logo.jpg" alt="Logo Proyector" />
+    <div class="slogan">"Proyectamos innovación, enfocamos el futuro"</div>
+  </header>
+
+  
+  <div class="hero">
+    <h1>Componentes de un Proyector</h1>
+    <p>Conoce las partes internas y externas esenciales de un proyector moderno</p>
+  </div>
+
+  
+  <section>
+    <div class="card-grid">
+
+      <div class="card">
+        <img src="./lente.jpg" alt="Lente">
+        <div class="card-content">
+          <h3>🔍 Lente</h3>
+          <p>Proyecta la imagen hacia la superficie. Ajustable para mejorar nitidez y tamaño.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./fuentedeluz.jpg" alt="Fuente de luz">
+        <div class="card-content">
+          <h3>💡 Fuente de luz</h3>
+          <p>Puede ser LED, láser o lámpara. Es la base luminosa del sistema de proyección.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./sistemaop.jpg" alt="Sistema óptico">
+        <div class="card-content">
+          <h3>⚙️ Sistema óptico</h3>
+          <p>Conjunto de lentes y espejos que canalizan la luz hacia el panel de imagen.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./placa.jpg" alt="Placa electrónica">
+        <div class="card-content">
+          <h3>🧠 Placa electrónica</h3>
+          <p>Procesa la señal de entrada y controla funciones como brillo y contraste.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./ventilador.jpg" alt="Ventilación">
+        <div class="card-content">
+          <h3>🌬️ Sistema de ventilación</h3>
+          <p>Evita el sobrecalentamiento. Incluye ventiladores internos y rejillas.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./puertos.jpg" alt="Puertos de conexión">
+        <div class="card-content">
+          <h3>🔌 Puertos de conexión</h3>
+          <p>Entradas HDMI, VGA, USB, audio y más. Permiten conectar diversos dispositivos.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./rueda.jpg" alt="Rueda de color">
+        <div class="card-content">
+          <h3>🌈 Rueda de color</h3>
+          <p>Usada en proyectores DLP. Mezcla colores RGB al girar rápidamente.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./panel.jpg" alt="Panel de imagen">
+        <div class="card-content">
+          <h3>🖼️ Panel de imagen</h3>
+          <p>Genera la imagen proyectada. Puede ser LCD, DLP o LCoS según el modelo.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    &copy; 2025 Victor Tumbaco — Todos los derechos reservados
+  </footer>
+
+</body>
+</html>
